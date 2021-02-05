@@ -1,9 +1,17 @@
-class Taskdemo{
 
-   constructor(name){
-        this.name=name;
-    }
+function person(value){ 
+    this.value=value;
+
+
+    for(var i=0;i<this.val.length;i++)
+
+    var a=string.charAt(i);
+
+        
+ return a;
+} 
+ //creating new instances of person object 
+ let person1 = new person("abacabad"); 
    
-}
-let car=new Taskdemo("dhaval");
-console.log(car);
+ console.log(person1); 
+ 
